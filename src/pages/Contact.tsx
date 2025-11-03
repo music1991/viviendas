@@ -30,7 +30,7 @@ const initialState: FormState = {
   website: "",
 };
 
-const API_URL = import.meta.env.VITE_CONTACT_API || "/api/contact";
+const API_URL = import.meta.env.VITE_CONTACT_API;
 
 const ContactPage: React.FC = () => {
   const { t } = useLanguage();
