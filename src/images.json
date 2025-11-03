@@ -1,0 +1,31 @@
+{
+  "profile": {
+    "src": "/images/photo.png",
+    "alt": "Sebastian Soraire - React Developer",
+    "width": 400,
+    "height": 400
+  },
+ "motivation": {
+    "volunteerPics": [
+      { "src": "/images/motivation/fundacion_01.png", "caption": "" },
+      { "src": "/images/motivation/fundacion_02.png", "caption": "" },
+      { "src": "/images/motivation/voluntariado_03.png", "caption": "" }
+    ],
+    "theaterPics": [
+      { "src": "/images/motivation/teatro_01.png", "caption": "" },
+      { "src": "/images/motivation/teatro_02.png", "caption": "" }
+    ],
+    "exercisePics": [
+      { "src": "/images/motivation/deporte_01.png", "caption": "" },
+      { "src": "/images/motivation/deporte_02.png", "caption": "" }
+    ]
+  },
+  "projects": {
+    "project2": {
+      "src": "/images/projects/project2.jpg",
+      "alt": "Project 2",
+      "width": 1200,
+      "height": 675
+    }
+  }
+}

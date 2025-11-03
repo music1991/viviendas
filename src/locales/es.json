@@ -1,0 +1,272 @@
+{
+  "general": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto",
+    "portfolio": "Portafolio",
+    "backToTop": "Volver arriba"
+  },
+  "aboutMe": {
+    "text": "Sobre Mi",
+    "languageSelector": "ES | EN | DE",
+    "title": "Analista de Sistemas Soraire Sebastián, especializado en React Js y React Native.",
+    "detail": "Integro buenas prácticas con objetivos de negocio. \nDesde mi expertise en la construcción de Software eficiente y escalable, construyo soluciones que resuelven problemáticas específicas.",
+    "speak": "Mi propósito es crear un impacto tangible, aportando valor mediante soluciones tecnológicas: automatizando procesos operativos, optimizando costos y mejorando la toma de decisiones.",
+    "more": "Más"
+  },
+  "profile": {
+     "motivations": {
+      "title": "Motivaciones",
+      "volunteer": {
+        "title": "Voluntariado",
+        "desc": "He participado en la fundación 'Un Mundo Diferente', un comedor para personas en situación de calle y merendero para niños. Además, la fundación organiza cada año el evento Una Navidad Diferente, el 24 de diciembre. \nTambién realicé un voluntariado en Brasil, fortaleciendo valores de empatía, cooperación y compromiso social."
+      },
+      "theater": {
+        "title": "Teatro",
+        "desc": "El teatro ha sido una actividad fascinante en mi busqueda de nuevas experiencias, donde la espontaneidad, la creatividad, el trabajo en equipo y el arte confluyen."
+      },
+      "exercise": {
+        "title": "Deporte",
+        "desc": "Desde pequeño siempre me ha gustado el deporte y la actividad física. Aporta grandes beneficios a mi salud física y mental, ayudándome a mantenerme enfocado y con energía para enfrentar los desafíos diarios.",
+        "bike": "Andar en bici",
+        "run": "Correr",
+        "gym": "Gimnasio",
+        "other": "Otros deportes"
+      }
+    },
+    "header": {
+      "title": "Sobre Mí",
+      "subtitle": "Una breve historia sobre mi formación, experiencia y pasiones."
+    },
+    "about": {
+      "heading": "Hola Mundo!",
+      "content": "Soy Sebastián Soraire, Analista de Sistemas, futuro Ingeniero en Sistemas y Frontend Developer React Semi-Senior. Pero más allá de los títulos, soy una persona profundamente curiosa, apasionada por la tecnología y por cómo puede mejorar la vida de las personas empleando la Ingenieria.\nHace más de ocho años que trabajo en el mundo IT. Desde pequeño me fascinaba construir cosas; hoy encuentro en el desarrollo y la ingeniería ese mismo espíritu creativo, potenciado por la posibilidad de generar impacto real.\nDurante los últimos tres años formé parte de una fintech argentina, donde crecí técnica y personalmente. Mis líderes destacaron mi empatía, compromiso y proactividad, tres valores que llevo a cada proyecto que emprendo.\nActualmente me encuentro finalizando la carrera de Ingeniería en Sistemas, y sigo fortaleciendo mi stack con Node.js y Next.js. Además, estoy perfeccionando mi inglés en busqueda de la excelencia.\nMe apasiona diseñar soluciones completas: desde entender el problema, analizarlo y proponer la arquitectura adecuada, hasta implementar, testear y mejorar con metodologías ágiles (SCRUM) y feedback constante de los usuarios.\nEn los últimos años también me capacite en habilidades blandas: liderazgo, comunicación y trabajo en equipo. La formación en neurociencia y psicología me ayudó a entender cómo las emociones, la conciencia y la empatía pueden potenciar el rendimiento colectivo.\nHoy busco nuevos desafíos donde pueda unir mis dos motores: la tecnología y el factor humano."
+    },
+    "experience": {
+      "title": "Experiencia Profesional",
+      "jobs": [
+        {
+          "role": "Frontend Developer (React Js & React Native)",
+          "company": "TotalCoin",
+          "period": "Jul 2022 - Ago 2025",
+          "details": [
+            "Desarrollo y mejora de productos digitales de alto impacto (App y Web).",
+            "Implementación del módulo de gestión de tarjetas de débito automatizando operaciones.",
+            "Renovación completa de la billetera digital, mejorando rendimiento y UX.",
+            "Colaboración con equipos de diseño y backend en revisiones de código y Figma.",
+            "Uso de IA para automatizar tareas repetitivas, reduciendo tiempo de desarrollo."
+          ]
+        },
+        {
+          "role": "Analista de Sistemas",
+          "company": "FLASH Servicios Postales",
+          "period": "Ago 2020 - Jul 2022",
+          "details": [
+            "Diseño y optimización de sistemas internos, digitalizando procesos operativos.",
+            "Implementación de sistema de seguimiento con QR y mapas interactivos.",
+            "Automatización del control de asistencia y reportes en tiempo real."
+          ]
+        },
+        {
+          "role": "Operador Telefónico",
+          "company": "Teleperformance",
+          "period": "Sept 2019 - Jul 2020",
+          "details": [
+            "Atención técnica en servicios de Internet, TV y telefonía.",
+            "Desarrollo de habilidades de comunicación y resolución de conflictos.",
+            "Altos niveles de satisfacción del cliente."
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "Educación",
+      "items": [
+        {
+          "degree": "Ingeniería en Sistemas de Información (en curso)",
+          "institution": "UTN – Facultad Regional Tucumán",
+          "year": "2025"
+        },
+        {
+          "degree": "Capacitación en Node JS / Next JS",
+          "institution": "",
+          "year": "2025"
+        },
+        {
+          "degree": "Curso de Liderazgo",
+          "institution": "Escuela de Oratoria y Liderazgo Argentina",
+          "year": "2025"
+        },
+        {
+          "degree": "Curso de Inglés",
+          "institution": "Instituto ANGLO Tucumán",
+          "year": "2022"
+        },
+        {
+          "degree": "Capacitación en React JS",
+          "institution": "",
+          "year": "2022"
+        },
+        {
+          "degree": "Analista en Sistemas de Información",
+          "institution": "UTN – Facultad Regional Tucumán",
+          "year": "2019"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Idiomas",
+      "list": [
+        { "name": "Español", "level": "Nativo" },
+        { "name": "Inglés", "level": "B2 – Intermedio Avanzado" },
+        { "name": "Alemán", "level": "A1 – Básico" }
+      ]
+    }
+  },
+  "projects": {
+    "text": "Proyectos",
+    "items": {
+      "wallet": {
+        "title": "Wallet App – Módulo de Tarjetas",
+        "details": "Rediseño funcional y mejoras de rendimiento. Navegación más limpia y cargas más rápidas."
+      },
+      "courier": {
+        "title": "Panel de Seguimiento de Mensajería",
+        "details": "Rutas en tiempo real con Google Maps y mejor seguimiento de envíos."
+      },
+      "compliance": {
+        "title": "Automatización de Compliance",
+        "details": "Automatización de flujos y reducción del tiempo de revisión."
+      },
+      "analytics": {
+        "title": "Rediseño de Plataforma de Analytics",
+        "details": "Dashboards mejorados con dark mode, reportes custom y insights de equipo."
+      },
+      "travel": {
+        "title": "Concepto de App de Viajes",
+        "details": "Interfaz mobile-first para descubrir y reservar destinos."
+      },
+      "ecommerce": {
+        "title": "Impulso de Performance en E-commerce",
+        "details": "SEO y optimización de velocidad para crecer ventas online."
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database & Tools",
+    "stack": {
+      "frontend": {
+        "javascript": "Lenguaje fundamental del desarrollo web moderno. Permite crear experiencias interactivas en el navegador y conectar la lógica con el diseño de las aplicaciones.",
+        "typescript": "Superset de JavaScript que añade tipado estático y herramientas avanzadas de desarrollo. Mejora la escalabilidad, legibilidad y mantenimiento de proyectos grandes.",
+        "react1": "Biblioteca declarativa desarrollada por Meta para construir interfaces de usuario dinámicas y reutilizables en aplicaciones web. Ideal para Single Page Applications (SPA) con alto rendimiento, utilizando componentes que se actualizan eficientemente mediante el Virtual DOM.",
+        "react2": "Framework basado en React JS para crear aplicaciones móviles nativas con JavaScript y React. Compila a componentes nativos, logrando rendimiento alto y una experiencia similar a las apps tradicionales.",
+        "next": "Framework de React que permite renderizado del lado del servidor (SSR) y generación estática (SSG). Optimiza el SEO y acelera la carga de las aplicaciones web.",
+        "html": "Lenguaje de marcado que define la estructura base de cualquier sitio web. Sirve como cimiento para el contenido, la accesibilidad y la semántica del documento."
+      },
+      "backend": {
+        "nodejs": "Entorno de ejecución para JavaScript del lado del servidor. Permite construir aplicaciones rápidas y escalables gracias a su modelo asíncrono y basado en eventos.",
+        "c-sharp": "Lenguaje moderno desarrollado por Microsoft, orientado a objetos y altamente tipado. Ideal para aplicaciones empresariales, APIs y desarrollo con .NET.",
+        "python": "Lenguaje versátil y expresivo, conocido por su sintaxis simple. Usado ampliamente en backend, análisis de datos, inteligencia artificial y automatización.",
+        "php": "Lenguaje maduro y confiable para el desarrollo de aplicaciones web dinámicas. Popular en entornos LAMP y CMS como WordPress o Laravel."
+      },
+      "database": {
+        "sqlServer": "Solución robusta de Microsoft para la administración de bases de datos. Ofrece alto rendimiento, seguridad y herramientas de análisis integradas.",
+        "postgress": "Base de datos relacional avanzada y de código abierto. Soporta consultas complejas, integridad transaccional y extensiones potentes para proyectos escalables.",
+        "git": "Sistema de control de versiones distribuido que permite gestionar cambios de código, colaborar en equipo y mantener el historial completo de desarrollo.",
+        "vite": "Herramienta de desarrollo ultrarrápida que sustituye a los bundlers tradicionales. Ofrece recarga instantánea y compilación eficiente para proyectos modernos de frontend."
+      }
+    }
+  },
+  "email": {
+    "emailSubject": "[Asunto] | Contacto desde tu Portfolio",
+    "emailBody": "Hola Sebastián,\n\n[Tu Cargo, si lo consideras relevante]\n[Tu LinkedIn o Sitio Web]\n[Tu Teléfono de contacto (Opcional)]"
+  },
+  "contact": {
+    "hero": {
+      "title": "Construyamos algo asombroso juntos",
+      "subtitle": "Si tenés una idea, un MVP en marcha o un producto que necesita una mejora, puedo ayudarte a diseñar y construir experiencias con React y React Native: enfocadas en performance, UX y resultados de negocio.",
+      "tags": {
+        "frontend": "Frontend React / React Native",
+        "ui": "UI Moderna",
+        "animations": "Animaciones suaves",
+        "scalable": "Escalable y mantenible"
+      }
+    },
+    "left": {
+      "title": "¿Por qué trabajar conmigo?",
+      "points": {
+        "value": "Enfoque 100% en valor de negocio.",
+        "comms": "Comunicación clara, entregas iterativas."
+      },
+      "actions": {
+        "email": "Email",
+        "phone": "+54 * ** ******"
+      }
+    },
+    "form": {
+      "title": "Contame sobre tu proyecto",
+      "subtitle": "Respondeme estas preguntas y te escribo en breve.",
+      "labels": {
+        "name": "Nombre",
+        "email": "Email",
+        "company": "Empresa",
+        "companyPrep": "de",
+        "projectType": "Tipo de proyecto",
+        "budget": "Presupuesto",
+        "timeline": "Timeline",
+        "message": "Mensaje",
+        "website": "Website"
+      },
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "tu@email.com",
+        "company": "Opcional",
+        "message": "Contame objetivos, referencias o links…",
+        "projectTypeFallback": "Consulta"
+      },
+      "selects": {
+        "projectType": {
+          "placeholder": "Seleccioná…",
+          "landing": "Landing / Web corporativa",
+          "dashboard": "Web App / Dashboard",
+          "mobile": "Mobile App (React Native)",
+          "optimize": "Optimización / Rediseño"
+        },
+        "budget": {
+          "placeholder": "Estimado…",
+          "b1": "U$D 1k – 3k",
+          "b2": "U$D 3k – 8k",
+          "b3": "U$D 8k – 15k",
+          "b4": "U$D 15k+"
+        },
+        "timeline": {
+          "placeholder": "¿Para cuándo?",
+          "asap": "Lo antes posible",
+          "t1": "1 – 3 meses",
+          "t2": "3 – 6 meses",
+          "flex": "Flexible"
+        }
+      },
+      "actions": {
+        "send": "Enviar",
+        "sending": "Enviando…"
+      },
+      "feedback": {
+        "success": "¡Gracias! Recibí tu mensaje y te responderé a la brevedad."
+      },
+      "errors": {
+        "generic": "No se pudo enviar el mensaje",
+        "network": "Error de red"
+      }
+    },
+    "mailto": {
+      "subjectPrefix": "Proyecto",
+      "template": "Hola Sebastián,\n\nSoy {{name}} ({{email}}){{company}}.\n\nMe interesa trabajar en: {{projectType}}\nPresupuesto: {{budget}}\nTimeline: {{timeline}}\n\nDetalle:\n{{message}}\n"
+    }
+  }
+}
