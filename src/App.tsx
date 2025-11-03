@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import { LanguageProvider } from "./context/Language";
 import HomePage from "./pages/Home";
-import AboutMe from "./pages/AboutMe";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import AboutPage from "./pages/AboutMe";
 
 function Layout() {
   return (
@@ -27,7 +27,7 @@ export default function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutMe />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Route>
         </Routes>

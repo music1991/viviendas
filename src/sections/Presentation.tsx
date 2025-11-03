@@ -1,6 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import { useLanguage } from "../context/Language";
 import images from "../images.json";
+import { Link } from "react-router-dom";
 
 export default function Presentation() {
   const { t } = useLanguage();
@@ -37,13 +38,13 @@ export default function Presentation() {
       </div>
 
       <div className="mt-8 text-center">
-        <button
-          onClick={() => { window.location.href = "/about" }}
+        <Link
+          to="/about"
           className="inline-flex items-center gap-2 text-blue-600 hover:text-purple-600 font-medium text-lg transition-all duration-300 hover:translate-x-1"
         >
           {t("aboutMe.more")}
           <ArrowUpRight className="w-5 h-5" />
-        </button>
+        </Link>
       </div>
     </div>
   );
