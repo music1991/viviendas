@@ -52,7 +52,11 @@ const Navbar: React.FC = () => {
 
   const handleNavItemClick = (item: any) => {
     if (item.to) {
-      navigate(item.to);
+       if (item.to === "/" && location.pathname === "/") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        navigate(item.to);
+      }
     } else if (item.section) {
       goToSectionOnHome(item.section);
     } else if (item.url) {
@@ -66,6 +70,7 @@ const Navbar: React.FC = () => {
   };
 
   const navItems = [
+    { id: 0, title: t("general.home"), to: "/"}, 
     { id: 1, title: t("projects.text"), section: "projects" }, 
     { id: 2, title: "CV", url: "/cv/cv_file.pdf", newTab: true },
     { id: 3, title: "LinkedIn", url: "https://www.linkedin.com/in/sebastian-soraire-developer/" },
@@ -83,12 +88,11 @@ const Navbar: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
           <div className="flex justify-between items-center h-full">
-            <button 
-              onClick={() => navigate("/")} 
+            <h2 
               className="text-xl font-bold text-gray-800 z-50"
             >
               {t("general.portfolio")}
-            </button>
+            </h2>
 
             <div className="hidden md:flex items-center space-x-3 absolute left-1/2 transform -translate-x-1/2">
               {navItems.map((item) => (
