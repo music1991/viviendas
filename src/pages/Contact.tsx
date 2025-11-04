@@ -100,7 +100,6 @@ const ContactPage: React.FC = () => {
           <div className="mt-6 flex flex-wrap gap-3 text-sm">
             <span className="px-3 py-1 rounded-full bg-white/15 border border-white/25">{t("contact.hero.tags.frontend")}</span>
             <span className="px-3 py-1 rounded-full bg-white/15 border border-white/25">{t("contact.hero.tags.ui")}</span>
-            <span className="px-3 py-1 rounded-full bg-white/15 border border-white/25">{t("contact.hero.tags.animations")}</span>
             <span className="px-3 py-1 rounded-full bg-white/15 border border-white/25">{t("contact.hero.tags.scalable")}</span>
           </div>
         </div>

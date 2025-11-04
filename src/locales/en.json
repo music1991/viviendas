@@ -52,11 +52,13 @@
           "company": "TotalCoin",
           "period": "Jul 2022 - Aug 2025",
           "details": [
-            "Developed and improved high-impact digital products (Web and Mobile).",
-            "Implemented debit card management module with automated workflows.",
-            "Redesigned the digital wallet, improving speed and UX.",
-            "Collaborated with design and backend teams through code reviews and Figma integration.",
-            "Used AI tools to automate repetitive tasks, reducing development time."
+            "Implemented the debit card management module, automating activation and operations directly from the app, improving user experience.",
+            "Contributed to the full redesign of the company’s web and mobile wallet, modernizing legacy code and applying best practices in React Native and React JS.",
+            "These improvements and technical debt refactors significantly enhanced user experience, making the applications faster, smoother, more stable, and visually engaging, with fewer errors and a clearer, more intuitive navigation.",
+            "Worked closely with the UX Design team using Figma to implement interface and experience improvements, and collaborated with backend developers through code reviews and pull request validation to ensure code quality and consistency.",
+            "Collaborated with the team to develop solutions for the Security and Compliance department, automating processes and reducing review and approval times by 40%.",
+            "Leveraged AI to automate repetitive coding tasks, cutting development time by half and increasing efficiency and product quality.",
+            "Promoted a collaborative and empathetic work environment, encouraging open communication, cooperation, and continuous improvement within the team."
           ]
         },
         {
@@ -64,9 +66,10 @@
           "company": "FLASH Postal Services",
           "period": "Aug 2020 - Jul 2022",
           "details": [
-            "Designed and optimized internal systems to digitalize operations.",
-            "Built QR-based tracking and real-time delivery dashboards.",
-            "Automated attendance and internal reporting processes."
+            "Built a QR code generation and scanning system for package tracking, reducing management times by 70% and eliminating manual errors.",
+            "Developed a platform using Google Maps API to monitor routes and deliveries in real time, improving timing and optimization of shipments and tracking.",
+            "Implemented a staff attendance control system that automated the calculation of schedules, attendance, and absences, improving administrative management by over 60%.",
+            "Applied the SCRUM methodology throughout the software development lifecycle, ensuring proper planning, control, and continuous improvement in projects."
           ]
         },
         {
@@ -74,9 +77,9 @@
           "company": "Teleperformance",
           "period": "Sept 2019 - Jul 2020",
           "details": [
-            "Provided technical support for Internet, TV and telephony services.",
-            "Developed strong communication and problem-solving skills.",
-            "Achieved high levels of customer satisfaction."
+            "Provided technical support for Internet, TV, and telephony services.",
+            "Developed assertive communication, empathy, and effective problem-solving skills under pressure.",
+            "Achieved high levels of customer satisfaction and consistently met performance metrics."
           ]
         }
       ]
@@ -193,7 +196,6 @@
       "tags": {
         "frontend": "Frontend React / React Native",
         "ui": "Modern UI",
-        "animations": "Smooth animations",
         "scalable": "Scalable & maintainable"
       }
     },

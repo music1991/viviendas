@@ -8,6 +8,7 @@ const volunteerPics = images.motivation.volunteerPics;
 const theaterPics = images.motivation.theaterPics ?? [];
 const exercisePics = images.motivation.exercisePics ?? [];
 
+
 const Polaroid: React.FC<{ src: string; caption?: string; rotate?: number }> = ({ src, caption, rotate = 0 }) => (
   <figure
     className={`relative bg-white rounded-sm shadow-xl ring-1 ring-black/10 p-3 w-44 sm:w-52 md:w-56
@@ -158,7 +159,17 @@ const AboutPage: React.FC = () => {
               <p className="list-disc list-inside text-gray-700 mt-10 mb-5 space-y-1">
                 {t?.("profile.motivations.theater.desc") ?? ""}
               </p>
-
+{/* <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
+                  {t?.("profile.motivations.theater.creativity") ?? ""}
+                </span>
+                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
+                  {t?.("profile.motivations.theater") ?? ""}
+                </span>
+                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
+                  {t?.("profile.motivations.theater") ?? ""}
+                </span>
+              </div> */}
             </div>
 
             <div className="p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all sm:col-span-2">
