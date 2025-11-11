@@ -4,9 +4,6 @@ import { useKeenSlider } from "keen-slider/react";
 import { useLanguage } from "../context/Language";
 import type { PortfolioItem } from "../entities/lib/projects";
 
-const getUri = (img: { uri: string } | string) =>
-  typeof img === "string" ? img : img?.uri;
-
 type Props = {
   items: PortfolioItem[];
   autoPlayMs?: number;
@@ -32,6 +29,7 @@ export default function SimpleCarousel({ items, autoPlayMs = 3000 }: Props) {
   });
 
   useEffect(() => {
+    // @ts-ignore
     sliderRef.current = slider;
   }, [slider]);
 
@@ -80,7 +78,7 @@ export default function SimpleCarousel({ items, autoPlayMs = 3000 }: Props) {
   };
 
   const title = (i: number) => t?.(items[i]?.titleKey) ?? "";
-  const details = (i: number) => t?.(items[i]?.detailsKey) ?? "";
+  const details = (i: number) => t?.(items[i]?.shortDescription) ?? "";
 
   return (
     <section
@@ -96,7 +94,7 @@ export default function SimpleCarousel({ items, autoPlayMs = 3000 }: Props) {
           {items.map((it, i) => (
             <div key={it.id ?? i} className="keen-slider__slide">
               <img
-                src={getUri(it.hero)}
+                src={it.captures[0]}
                 alt={it.alt || title(i)}
                 className="w-full h-[min(64vw,520px)] object-cover"
                 draggable={false}

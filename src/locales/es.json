@@ -6,7 +6,8 @@
     "skills": "Habilidades",
     "contact": "Contacto",
     "portfolio": "Portafolio",
-    "backToTop": "Volver arriba"
+    "backToTop": "Volver arriba",
+    "year": "Año"
   },
   "aboutMe": {
     "text": "Sobre Mi",
@@ -130,30 +131,38 @@
   },
   "projects": {
     "text": "Proyectos",
+    "note": "Note: \nThe following images and specific details are representative and have been recreated to illustrate the system's functionality.\n(Specific details protected by '{company}')",
+    "tecnologies": "Tecnologías y Herramientas",
     "items": {
-      "wallet": {
-        "title": "Wallet App – Módulo de Tarjetas",
-        "details": "Rediseño funcional y mejoras de rendimiento. Navegación más limpia y cargas más rápidas."
+      "teamsImprove": {
+        "title": "Teams Improve",
+        "shortDescription": "Plataforma de gestión y análisis de rendimiento de equipos",
+        "details": "Plataforma moderna para la gestión, análisis y mejora del rendimiento de equipos y usuarios, con dashboards interactivos y métricas en tiempo real."
       },
-      "courier": {
-        "title": "Panel de Seguimiento de Mensajería",
-        "details": "Rutas en tiempo real con Google Maps y mejor seguimiento de envíos."
+      "complianceAutomation": {
+        "title": "Automatización Sistema de Compliance",
+        "shortDescription": "Plataforma centralizada de automatización para seguridad y cumplimiento",
+        "details": "Participé en el desarrollo de una plataforma centralizada para el departamento de Seguridad y Cumplimiento. La solución automatizó flujos de trabajo manuales críticos, incluyendo revisiones de excepciones de políticas, campañas de certificación de acceso y recolección de evidencias de auditoría. Al digitalizar y optimizar estos procesos, redujimos los tiempos promedio de ciclo de revisión y aprobación en un 40%, disminuyendo significativamente el riesgo operativo y asegurando una postura de cumplimiento más ágil y demostrable."
+      },  
+      "productModernization": {
+        "title": "Modernización de Productos",
+        "shortDescription": "Lanzamiento de Nuevo Diseño y Funcionalidades Principales",
+        "details": "Contribuí al rediseño completo de la billetera web y móvil de la empresa, modernizando código legacy y aplicando las mejores prácticas en React Native y React JS. Estas mejoras y refactorizaciones de deuda técnica mejoraron significativamente la experiencia del usuario, haciendo que las aplicaciones fueran más rápidas, fluidas, estables y visualmente atractivas, con menos errores y una navegación más clara e intuitiva."
       },
-      "compliance": {
-        "title": "Automatización de Compliance",
-        "details": "Automatización de flujos y reducción del tiempo de revisión."
+      "prepaidCard": {
+        "title": "Modulo de Tarjeta Prepaga",
+        "shortDescription": "Autogestión de tarjetas prepagas en aplicación móvil",
+        "details": "Lideré la actualizacion, desarrollo e implementación del módulo de Tarjeta Prepaga para la gestión autónoma de tarjetas de débito dentro de la aplicación móvil. Esta funcionalidad permitió a los usuarios activar nuevas tarjetas al instante y realizar operaciones clave como bloqueos temporales, desbloqueos y verificaciones de estado completamente desde la aplicación. Al eliminar la necesidad de llamadas al servicio al cliente o visitas a sucursales, el módulo automatizó por completo el flujo de trabajo de gestión, logrando una mejora drástica en la experiencia del usuario y una reducción significativa en los costos operativos."
       },
-      "analytics": {
-        "title": "Rediseño de Plataforma de Analytics",
-        "details": "Dashboards mejorados con dark mode, reportes custom y insights de equipo."
+      "map": {
+        "title": "Trackeo en Tiempo Real",
+        "shortDescription": "Seguimiento en tiempo real de rutas y entregas de una empresa logística",
+        "details": "Lideré el desarrollo de una solución de monitoreo logístico impulsada por la API de Google Maps. El sistema permitió el seguimiento en tiempo real de las flotas de entrega, proporcionando actualizaciones en vivo sobre la ubicación de los vehículos, el progreso de las rutas y el estado de las entregas. Esta visibilidad de extremo a extremo facilitó la optimización dinámica de rutas, redujo los tiempos de viaje y ofreció a los clientes un seguimiento preciso, lo que llevó a una mejora sustancial en la puntualidad de los envíos y la eficiencia operativa general."
       },
-      "travel": {
-        "title": "Concepto de App de Viajes",
-        "details": "Interfaz mobile-first para descubrir y reservar destinos."
-      },
-      "ecommerce": {
-        "title": "Impulso de Performance en E-commerce",
-        "details": "SEO y optimización de velocidad para crecer ventas online."
+      "qr": {
+        "title": "Trackeo con Códigos QR",
+        "shortDescription": "Sistema de gestión y seguimiento de paquetes con QR",
+        "details": "Diseñé e implementé el sistema 'ScanFlow', una plataforma integral de gestión de paquetes que utiliza tecnología de código QR. La solución incluyó la generación de etiquetas con códigos QR únicos para cada envío y su escaneo en cada punto de control (recepción, en tránsito, entrega). Esta automatización de extremo a extremo del ciclo de vida del paquete eliminó por completo los errores de entrada manual de datos y redujo los tiempos de consulta de gestión y seguimiento en un 70%, revolucionando la operación logística."
       }
     }
   },

@@ -159,7 +159,7 @@ const AboutPage: React.FC = () => {
               <p className="list-disc list-inside text-gray-700 mt-10 mb-5 space-y-1">
                 {t?.("profile.motivations.theater.desc") ?? ""}
               </p>
-{/* <div className="flex flex-wrap gap-2">
+          {/* <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
                   {t?.("profile.motivations.theater.creativity") ?? ""}
                 </span>

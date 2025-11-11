@@ -1,8 +1,7 @@
+import { useState } from "react";
 import { useLanguage } from "../context/Language";
 import type { PortfolioItem } from "../entities/lib/projects";
-
-const getUri = (img: { uri: string } | string) =>
-  typeof img === "string" ? img : img?.uri;
+import ModalProject from "../components/ModalProject";
 
 type Props = {
   items: PortfolioItem[];
@@ -12,6 +11,19 @@ type Props = {
 
 export default function PortfolioGrid({ items, onSelect, className = "" }: Props) {
   const { t } = useLanguage();
+  const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleItemClick = (item: PortfolioItem, index: number) => {
+    setSelectedItem(item);
+    setIsModalOpen(true);
+    onSelect?.(item, index);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedItem(null);
+  };
 
   return (
     <div className="mt-28 md:mt-30 relative max-w-[1200px] min-h-[520px] m-auto">
@@ -30,8 +42,8 @@ export default function PortfolioGrid({ items, onSelect, className = "" }: Props
           return (
             <article
               key={`${item.id}-${idx}`}
-              onClick={() => onSelect?.(item, idx)}
-              className={`relative group rounded-2xl overflow-hidden transition-all duration-300 transform ${scale} hover:scale-110 hover:-translate-y-2 hover:shadow-2xl`}
+              onClick={() => handleItemClick(item, idx)}
+              className={`relative group rounded-2xl overflow-hidden transition-all duration-300 transform ${scale} hover:scale-110 hover:-translate-y-2 hover:shadow-2xl cursor-pointer`}
             >
               <div
                 className={`relative w-full overflow-hidden ${
@@ -39,12 +51,11 @@ export default function PortfolioGrid({ items, onSelect, className = "" }: Props
                 }`}
               >
                 <img
-                  src={getUri(item.thumb)}
+                  src={item.captures[0]}
                   alt={item.alt || t?.(item.titleKey) || ""}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
-
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
                 <div className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-200 group-hover:opacity-100" />
                 <h3 className="pointer-events-none absolute bottom-3 left-4 text-white text-base md:text-lg font-semibold drop-shadow opacity-0 translate-y-1 transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0">
@@ -55,6 +66,13 @@ export default function PortfolioGrid({ items, onSelect, className = "" }: Props
           );
         })}
       </div>
+
+      <ModalProject 
+        item={selectedItem}
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        t={t}
+      />
     </div>
   );
 }

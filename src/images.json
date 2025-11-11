@@ -19,13 +19,5 @@
       { "src": "/images/motivation/deporte_01.png", "caption": "" },
       { "src": "/images/motivation/deporte_02.png", "caption": "" }
     ]
-  },
-  "projects": {
-    "project2": {
-      "src": "/images/projects/project2.jpg",
-      "alt": "Project 2",
-      "width": 1200,
-      "height": 675
-    }
   }
 }

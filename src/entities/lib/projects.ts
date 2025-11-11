@@ -2,67 +2,97 @@ export interface PortfolioItem {
   id: string;
   year: string;
   category: string;
-  hero: { uri: string };
-  thumb: { uri: string };
+  captures: string[];
   client?: string;
   alt?: string;
   titleKey: string;
   detailsKey: string;
+  shortDescription: string;
+  note: boolean;
+  company?: string;
+  technologies: string[];
 }
 
 export const DATA: PortfolioItem[] = [
   {
-    id: "wallet",
+    id: "teamsImprove",
+    year: "2025",
+    category: "",
+    captures: ["/images/projects/project_01_1.png", "/images/projects/project_01_2.png", "/images/projects/project_01_3.png"],
+    titleKey: "projects.items.teamsImprove.title",
+    detailsKey: "projects.items.teamsImprove.details",
+    shortDescription: "projects.items.teamsImprove.shortDescription",
+    note: false,
+    technologies: ["React", "TypeScript", "Next", "Node", "PostgreSQL", "Code generation con AI", "Vercel", "Neon Storage"]
+  },
+  {
+    id: "complianceAutomation",
+    year: "2025",
+    category: "",
+    captures: ["/images/projects/project_02_1.png"],
+    titleKey: "projects.items.complianceAutomation.title",
+    detailsKey: "projects.items.complianceAutomation.details",
+    shortDescription: "projects.items.complianceAutomation.shortDescription",
+    note: true,
+    company: "totalcoin",
+    technologies: ["React", "TypeScript", "C#", "Figma",  "Bitbucket",  "SCRUM"]
+  },
+  {
+    id: "productModernization",
+    year: "2025",
+    category: "",
+    captures: ["/images/projects/project_03_1.png"],
+    titleKey: "projects.items.productModernization.title",
+    detailsKey: "projects.items.productModernization.details",
+    shortDescription: "projects.items.productModernization.shortDescription",
+    note: true,
+    company: "totalcoin",
+    technologies: ["React", "React Native", "TypeScript", "C#", "Figma",  "Bitbucket",  "SCRUM", "iOS", "Android", "SQL Server"]
+  },
+  {
+    id: "prepaidCard",
     year: "2024",
-    category: "Entertainment / Fintech",
-    hero: { uri: "https://images.unsplash.com/photo-1508938255445-041651dfe0c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" },
-    thumb: { uri: "https://images.unsplash.com/photo-1508938255445-041651dfe0c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" },
-    titleKey: "projects.items.wallet.title",
-    detailsKey: "projects.items.wallet.details",
+    category: "",
+    captures: ["/images/projects/project_04_1.png", "/images/projects/project_04_2.png", "/images/projects/project_04_3.png"],
+    titleKey: "projects.items.prepaidCard.title",
+    detailsKey: "projects.items.prepaidCard.details",
+    shortDescription: "projects.items.prepaidCard.shortDescription",
+    note: true,
+    company: "totalcoin",
+    technologies: ["React Native", "TypeScript", "C#", "Figma",  "Bitbucket",  "SCRUM", "iOS", "Android", "SQL Server"]
   },
   {
-    id: "courier",
-    year: "2023",
-    category: "Logistics",
-    hero: { uri: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80" },
-    thumb: { uri: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=400&q=60" },
-    titleKey: "projects.items.courier.title",
-    detailsKey: "projects.items.courier.details",
+    id: "map",
+    year: "",
+    category: "",
+    captures: ["/images/projects/project_05_1.png", "/images/projects/project_05_2.png"],
+    titleKey: "projects.items.map.title",
+    detailsKey: "projects.items.map.details",
+    shortDescription: "projects.items.map.shortDescription",
+    note: true,
+    company: "FLASH Servicios Postales",
+    technologies: ["JavaScript", "HTML", "CSS", "PHP",  "Google Maps API", "SQL Server"]
   },
-  {
-    id: "compliance",
-    year: "2023",
-    category: "Security",
-    hero: { uri: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" },
-    thumb: { uri: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=60" },
-    titleKey: "projects.items.compliance.title",
-    detailsKey: "projects.items.compliance.details",
+    {
+    id: "qr",
+    year: "",
+    category: "",
+    captures: ["/images/projects/project_07_1.png", "/images/projects/project_07_2.png", "/images/projects/project_07_3.png"],
+    titleKey: "projects.items.qr.title",
+    detailsKey: "projects.items.qr.details",
+    shortDescription: "projects.items.qr.shortDescription",
+    note: true,
+    company: "FLASH Servicios Postales",
+    technologies: ["JavaScript", "HTML", "CSS", "PHP",  "Microsoft Excel", "SQL Server"]
   },
-  {
-    id: "analytics",
-    year: "2024",
-    category: "Data / UX",
-    hero: { uri: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" },
-    thumb: { uri: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=60" },
-    titleKey: "projects.items.analytics.title",
-    detailsKey: "projects.items.analytics.details",
-  },
-  {
-    id: "travel",
-    year: "2022",
-    category: "Mobile / UI",
-    hero: { uri: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80" },
-    thumb: { uri: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=400&q=60" },
-    titleKey: "projects.items.travel.title",
-    detailsKey: "projects.items.travel.details",
-  },
-  {
-    id: "ecommerce",
-    year: "2024",
-    category: "Retail / Optimization",
-    hero: { uri: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" },
-    thumb: { uri: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=60" },
-    titleKey: "projects.items.ecommerce.title",
-    detailsKey: "projects.items.ecommerce.details",
-  },
+  // {
+  //   id: "",
+  //   year: "",
+  //   category: "",
+  //   captures: [""],
+  //   titleKey: "projects.items. .title",
+  //   detailsKey: "projects.items. .details",
+  //   note: "projects.items. .note",
+  //   technologies: [""]
+  // },
 ];
