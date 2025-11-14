@@ -43,7 +43,7 @@
     },
     "about": {
       "heading": "Hello World!",
-      "content": "I'm Sebastián Soraire, Systems Analyst, future Systems Engineer and React Frontend Developer (Semi-Senior). Beyond the titles, I'm deeply curious and passionate about technology and how it can improve people's lives using Engineering.\nI've been working in IT for more than eight years. Since I was a kid, I loved building things; today I find in development and engineering that same creative spirit, amplified by the ability to generate real impact.\nFor the last three years I’ve been part of an Argentinian fintech, where I grew both technically and personally. My leaders have highlighted my empathy, commitment and proactivity, values I bring to every project.\nI'm currently finishing my Systems Engineering degree and strengthening my stack with Node.js and Next.js. I’m also improving my English in pursuit of excellence.\nI’m passionate about designing complete solutions: from understanding the problem and proposing the right architecture, to implementing, testing, and iterating under agile methodologies (SCRUM) with user feedback.\nIn recent years, I’ve worked on my soft skills – leadership, communication and teamwork. Training in neuroscience and psychology helped me understand how emotions, awareness and empathy enhance collective performance.\nToday I seek new challenges where I can merge my two main drives: technology and the human factor."
+      "content": "I'm Sebastián Soraire, Systems Analyst, future Systems Engineer and React Frontend Developer (Semi-Senior). Beyond the titles, I'm deeply curious and passionate about technology and how it can improve people's lives using Engineering.\nI've been working in IT for more than six years. Since I was a kid, I loved building things; today I find in development and engineering that same creative spirit, amplified by the ability to generate real impact.\nFor the last three years I’ve been part of an Argentinian fintech, where I grew both technically and personally. My leaders have highlighted my empathy, commitment and proactivity, values I bring to every project.\nI'm currently finishing my Systems Engineering degree and strengthening my stack with Node.js and Next.js. I’m also improving my English in pursuit of excellence.\nI’m passionate about designing complete solutions: from understanding the problem and proposing the right architecture, to implementing, testing, and iterating under agile methodologies (SCRUM) with user feedback.\nIn recent years, I’ve worked on my soft skills – leadership, communication and teamwork. Learned about neuroscience and psychology, that helped me understand how emotions, awareness and empathy enhance collective performance.\nToday I seek new challenges where I can merge my two main drives: technology and the human factor."
     },
     "experience": {
       "title": "Professional Experience",
@@ -131,7 +131,7 @@
   },
   "projects": {
     "text": "Projects",
-    "note": "Nota: \nLas siguientes imágenes y detalles específicos son representativos y se han recreado para ilustrar la funcionalidad del sistema. \n(Detalles específicos protegidos por '{company}')",
+    "note": "Note: \nThe following images and specific details are representative and have been recreated to illustrate the system's functionality.\n(Specific details protected by '{company}')",
     "tecnologies": "Technologies & Tools",
     "items": {
       "teamsImprove": {
@@ -152,7 +152,7 @@
       "prepaidCard": {
         "title": "Prepaid Cards Module",
         "shortDescription": "Prepaid card self-management in mobile application",
-        "details": "Led the update, development and implementation of the Module Prepaid Card module for self-service debit card management within the mobile application. This feature enabled users to instantly activate new cards and perform key operations such as temporary locks, unlocks, and status checks entirely through the app. By eliminating the need for customer service calls or branch visits, the module fully automated the management workflow, achieving a dramatic improvement in user experience and a significant reduction in operational costs."
+        "details": "Led the update, development and implementation of the Module Prepaid Card for self-service debit card management within the mobile application. This feature enabled users to instantly activate new cards and perform key operations such as temporary locks, unlocks, and status checks entirely through the app. By eliminating the need for customer service calls or branch visits, the module fully automated the management workflow, achieving a dramatic improvement in user experience and a significant reduction in operational costs."
       },
       "map": {
         "title": "Real-Time Tracked",
