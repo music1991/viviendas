@@ -10,7 +10,7 @@
       "backToTop": "Volver arriba",
       "year": "Año"
     },
-    "aboutMe": { 
+    "aboutMe": {
       "text": "¿Quienes somos?",
       "languageSelector": "ES | EN | DE",
       "title": "Vos soñás. Nosotros construimos.",
@@ -124,9 +124,18 @@
       "languages": {
         "title": "Idiomas",
         "list": [
-          { "name": "Español", "level": "Nativo" },
-          { "name": "Inglés", "level": "B2 – Intermedio Avanzado" },
-          { "name": "Alemán", "level": "A1 – Básico" }
+          {
+            "name": "Español",
+            "level": "Nativo"
+          },
+          {
+            "name": "Inglés",
+            "level": "B2 – Intermedio Avanzado"
+          },
+          {
+            "name": "Alemán",
+            "level": "A1 – Básico"
+          }
         ]
       }
     },
@@ -136,28 +145,28 @@
       "tecnologies": "Tecnologías y Herramientas",
       "items": {
         "teamsImprove": {
-          "title": "",
+          "title": "Diseño",
           "shortDescription": "Empeza a vivir en la casa que siempre imaginaste...",
           "details": "Plataforma moderna para la gestión, análisis y mejora del rendimiento de equipos y usuarios, con dashboards interactivos y métricas en tiempo real."
         },
         "complianceAutomation": {
-          "title": "",
+          "title": "Creando Historias, No Solo Viviendas",
           "shortDescription": "Cada vivienda terminada es una nueva etapa en la historia de una Familia.",
           "details": "Participé en el desarrollo de una plataforma centralizada para el departamento de Seguridad y Cumplimiento. La solución automatizó flujos de trabajo manuales críticos, incluyendo revisiones de excepciones de políticas, campañas de certificación de acceso y recolección de evidencias de auditoría. Al digitalizar y optimizar estos procesos, redujimos los tiempos promedio de ciclo de revisión y aprobación en un 40%, disminuyendo significativamente el riesgo operativo y asegurando una postura de cumplimiento más ágil y demostrable."
-        },  
+        },
         "productModernization": {
           "title": "Construcción Rápida",
-          "shortDescription": "",
+          "shortDescription": "Procesos ágiles que aceleran cada etapa del proyecto.",
           "details": "Contribuí al rediseño completo de la billetera web y móvil de la empresa, modernizando código legacy y aplicando las mejores prácticas en React Native y React JS. Estas mejoras y refactorizaciones de deuda técnica mejoraron significativamente la experiencia del usuario, haciendo que las aplicaciones fueran más rápidas, fluidas, estables y visualmente atractivas, con menos errores y una navegación más clara e intuitiva."
         },
         "prepaidCard": {
           "title": "Materiales de Calidad",
-          "shortDescription": "",
+          "shortDescription": "Seleccionamos materiales que garantizan durabilidad y confianza.",
           "details": "Lideré la actualizacion, desarrollo e implementación del módulo de Tarjeta Prepaga para la gestión autónoma de tarjetas de débito dentro de la aplicación móvil. Esta funcionalidad permitió a los usuarios activar nuevas tarjetas al instante y realizar operaciones clave como bloqueos temporales, desbloqueos y verificaciones de estado completamente desde la aplicación. Al eliminar la necesidad de llamadas al servicio al cliente o visitas a sucursales, el módulo automatizó por completo el flujo de trabajo de gestión, logrando una mejora drástica en la experiencia del usuario y una reducción significativa en los costos operativos."
         },
         "map": {
           "title": "Diseños Personalizados",
-          "shortDescription": "",
+          "shortDescription": "Adaptamos cada espacio a las necesidades y estilo de cada familia.",
           "details": "Lideré el desarrollo de una solución de monitoreo logístico impulsada por la API de Google Maps. El sistema permitió el seguimiento en tiempo real de las flotas de entrega, proporcionando actualizaciones en vivo sobre la ubicación de los vehículos, el progreso de las rutas y el estado de las entregas. Esta visibilidad de extremo a extremo facilitó la optimización dinámica de rutas, redujo los tiempos de viaje y ofreció a los clientes un seguimiento preciso, lo que llevó a una mejora sustancial en la puntualidad de los envíos y la eficiencia operativa general."
         }
       }
