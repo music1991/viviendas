@@ -19,7 +19,7 @@ export default function Footer() {
 
           {/* Instagram */}
           <a
-            href="https://instagram.com/viviendas.bariloche.tuc"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="
@@ -27,14 +27,14 @@ export default function Footer() {
     "
           >
             <img
-              src="/inst.png"   // 👉 coloca tu PNG aquí
+              src="/inst.png"
               alt="Instagram"
               className="w-12 h-12 object-contain"
             />
           </a>
 
           {/* WhatsApp */}
-          <a
+          {/* <a
             href="https://wa.me/543815524992"
             target="_blank"
             rel="noopener noreferrer"
@@ -48,7 +48,7 @@ export default function Footer() {
               alt="WhatsApp"
               className="w-35 h-35 object-contain"
             />
-          </a>
+          </a> */}
 
         </div>
 

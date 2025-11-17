@@ -67,12 +67,12 @@ export default function PortfolioGrid({ items, onSelect, className = "" }: Props
         })}
       </div>
 
-      {/* <ModalProject 
+      <ModalProject 
         item={selectedItem}
         isOpen={isModalOpen}
         onClose={closeModal}
         t={t}
-      /> */}
+      />
     </div>
   );
 }

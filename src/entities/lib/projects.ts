@@ -96,3 +96,18 @@ export const DATA: PortfolioItem[] = [
   //   technologies: [""]
   // },
 ];
+
+
+export const DATA2: PortfolioItem[] = [
+  {
+    id: "mollar",
+    year: "2025",
+    category: "",
+    captures: ["/images/projects/build_03.png", "/images/projects/build_02.png", "/images/projects/build_01.png"],
+    titleKey: "builds.items.mollar.title",
+    detailsKey: "builds.items.mollar.details",
+    shortDescription: "",
+    note: false,
+    technologies: ["El Mollar, Tucuman"]
+  }
+];

@@ -2,7 +2,7 @@ import React from 'react';
 import { SkillsSection } from '../sections/Skills';
 import Presentation from '../sections/Presentation';
 import PortfolioGrid from '../sections/Projects';
-import { DATA } from '../entities/lib/projects';
+import { DATA2 } from '../entities/lib/projects';
 import HeroSlider from '../components/HeroSlider';
 import ProcessSlider from "../components/ProcessSlider";
 
@@ -20,11 +20,11 @@ const HomePage: React.FC = () => {
         </section>
 
         <section id="skills" className="w-full">
-<ProcessSlider />
+          <ProcessSlider />
         </section>
 
         <section id="projects" className="scroll-mt-24 md:scroll-mt-28 w-full">
-          <PortfolioGrid items={DATA} />
+          <PortfolioGrid items={DATA2} />
         </section>
       </div>
     </main>

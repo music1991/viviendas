@@ -108,9 +108,9 @@ export default function ModalProject({ item, isOpen, onClose, t }: ModalProjectP
 
 						{item.technologies && item.technologies.length > 0 && item.technologies.some(tech => tech.trim() !== "") && (
 							<div className="mt-10">
-								<span className="text-lg font-medium text-gray-600 px-4 py-2 rounded-full">
+								{/* <span className="text-lg font-medium text-gray-600 px-4 py-2 rounded-full">
 									{t?.("projects.tecnologies")}
-								</span>
+								</span> */}
 								<div className="flex flex-wrap gap-4 justify-center mt-5 mb-5">
 									{item.technologies.map((tech, index) => (
 										tech.trim() && (
