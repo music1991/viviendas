@@ -69,7 +69,11 @@ export default function Footer() {
           <h2 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             {t("general.nameSite")}
           </h2>
+
           <p className="text-sm text-gray-500 mt-1">
+            <strong>Dirección:</strong> Larrea 790 - San Miguel de Tucumán
+          </p>
+                    <p className="text-sm text-gray-500 mt-1">
             © {year}
           </p>
         </div>
