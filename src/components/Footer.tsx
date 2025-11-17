@@ -15,42 +15,42 @@ export default function Footer() {
         justify-center md:justify-between gap-6
         text-center md:text-left
       ">
-<div className="order-1 md:order-2 flex items-center gap-1">
+        <div className="order-1 md:order-2 flex items-center gap-1">
 
-  {/* Instagram */}
-  <a
-    href="https://instagram.com/viviendas.bariloche.tuc"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="
+          {/* Instagram */}
+          <a
+            href="https://instagram.com/viviendas.bariloche.tuc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
       w-16 h-16 flex items-center justify-center rounded-xl
     "
-  >
-    <img
-      src="/inst.png"   // 👉 coloca tu PNG aquí
-      alt="Instagram"
-      className="w-12 h-12 object-contain"
-    />
-  </a>
+          >
+            <img
+              src="/inst.png"   // 👉 coloca tu PNG aquí
+              alt="Instagram"
+              className="w-12 h-12 object-contain"
+            />
+          </a>
 
-  {/* WhatsApp */}
-  <a
-    href="https://wa.me/543815524992"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/543815524992"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
       w-16 h-16 flex items-center justify-center rounded-xl
     "
-    style={{paddingBottom: '10px'}}
-  >
-    <img
-      src="/wsp.png"  // 👉 coloca tu PNG aquí
-      alt="WhatsApp"
-      className="w-35 h-35 object-contain"
-    />
-  </a>
+            style={{ paddingBottom: '10px' }}
+          >
+            <img
+              src="/wsp.png"  // 👉 coloca tu PNG aquí
+              alt="WhatsApp"
+              className="w-35 h-35 object-contain"
+            />
+          </a>
 
-</div>
+        </div>
 
 
 
