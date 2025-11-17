@@ -144,8 +144,12 @@
         "mollar": {
           "title": "CASA FIBROCEMENTO",
           "details": "Queremos agradecer profundamente a nuestros clientes por confiar en Viviendas Bariloche para hacer realidad su sueño de la casa propia. \nCada obra finalizada es también un sueño cumplido, y nos llena de orgullo acompañar a las familias en este camino.⁣"
-          }
-        }
+        },
+        "sala": {
+        "title": "Casa La Sala",
+        "details": "Gracias Daniel Torres por confiar en Viviendas Bariloche. Cada proyecto terminado es la prueba de que los sueños se pueden volver realidad con trabajo, compromiso y dedicación.\n A quienes estén listos para dar el paso y empezar a construir, los invitamos a escribirno.⁣"
+      }
+      }
     },
     "projects": {
       "text": "Proyectos",

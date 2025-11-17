@@ -109,5 +109,16 @@ export const DATA2: PortfolioItem[] = [
     shortDescription: "",
     note: false,
     technologies: ["El Mollar, Tucuman"]
+  },
+    {
+    id: "sala",
+    year: "2025",
+    category: "",
+    captures: ["/images/projects/build_04.png", "/images/projects/build_05.png", "/images/projects/build_06.png"],
+    titleKey: "builds.items.sala.title",
+    detailsKey: "builds.items.sala.details",
+    shortDescription: "",
+    note: false,
+    technologies: ["El Sala, Tucuman"]
   }
 ];
