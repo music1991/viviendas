@@ -73,9 +73,9 @@ const Navbar: React.FC = () => {
     { id: 0, title: t("general.home"), to: "/"}, 
     { id: 1, title: t("projects.text"), section: "projects" }, 
     // { id: 2, title: "CV", url: "/cv/cv_file.pdf", newTab: true },
-    { id: 3, title: "LinkedIn", url: "https://www.linkedin.com/in/sebastian-soraire-developer/" },
-    { id: 4, title: "GitHub", url: "https://github.com/music1991" },
-    { id: 5, title: t('aboutMe.text'), section: 'about' },
+    // { id: 3, title: "LinkedIn", url: "https://www.linkedin.com/in/sebastian-soraire-developer/" },
+    // { id: 4, title: "GitHub", url: "https://github.com/music1991" },
+    { id: 5, title: t('aboutMe.text'), to: '/about' },
     { id: 6, title: t("general.contact"), to: "/contact" },
   ];
 
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
             <h2 
               className="text-xl font-bold text-gray-800 z-50"
             >
-              {t("general.portfolio")}
+              {t("general.nameSite")}
             </h2>
 
             <div className="hidden md:flex items-center space-x-3 absolute left-1/2 transform -translate-x-1/2">
@@ -107,10 +107,10 @@ const Navbar: React.FC = () => {
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="z-50">
-                <LanguageSelector />
-              </div>
-              
+                {/* <div className="z-50">
+                  <LanguageSelector />
+                </div> */}
+                
               <button
                 className="md:hidden flex flex-col w-6 h-6 justify-center items-center space-y-1 z-50"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

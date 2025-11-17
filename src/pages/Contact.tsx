@@ -97,11 +97,11 @@ const ContactPage: React.FC = () => {
           <p className="mt-4 text-lg md:text-xl opacity-90 leading-relaxed max-w-3xl">
             {t("contact.hero.subtitle")}
           </p>
-          <div className="mt-6 flex flex-wrap gap-3 text-sm">
+          {/* <div className="mt-6 flex flex-wrap gap-3 text-sm">
             <span className="px-3 py-1 rounded-full bg-white/15 border border-white/25">{t("contact.hero.tags.frontend")}</span>
             <span className="px-3 py-1 rounded-full bg-white/15 border border-white/25">{t("contact.hero.tags.ui")}</span>
             <span className="px-3 py-1 rounded-full bg-white/15 border border-white/25">{t("contact.hero.tags.scalable")}</span>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -118,10 +118,10 @@ const ContactPage: React.FC = () => {
               <div className="mt-6 h-px bg-gray-100" />
 
               <div className="mt-6 space-y-3">
-                <a href={mailTo()} className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
+                {/* <a href={mailTo()} className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
                   <Mail className="w-5 h-5" /> {t("contact.left.actions.email")} <ArrowUpRight className="w-4 h-4" />
-                </a>
-                <a href="tel:+5493815606434" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
+                </a> */}
+                <a href="tel:+5493815000000" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
                   <Phone className="w-5 h-5" /> {t("contact.left.actions.phone")}
                 </a>
               </div>
@@ -155,7 +155,7 @@ const ContactPage: React.FC = () => {
                     placeholder={t("contact.form.placeholders.email")}
                   />
                 </div>
-                <div>
+                {/* <div>
                   <label className="text-sm text-gray-600 flex items-center gap-2">
                     <Building2 className="w-4 h-4 text-gray-500" /> {t("contact.form.labels.company")}
                   </label>
@@ -165,8 +165,8 @@ const ContactPage: React.FC = () => {
                     className="mt-1 w-full rounded-lg border border-gray-200 px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder={t("contact.form.placeholders.company")}
                   />
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <label className="text-sm text-gray-600 flex items-center gap-2">
                     <Briefcase className="w-4 h-4 text-gray-500" /> {t("contact.form.labels.projectType")}
                   </label>
@@ -181,8 +181,8 @@ const ContactPage: React.FC = () => {
                     <option>{t("contact.form.selects.projectType.mobile")}</option>
                     <option>{t("contact.form.selects.projectType.optimize")}</option>
                   </select>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <label className="text-sm text-gray-600 flex items-center gap-2">
                     <DollarSign className="w-4 h-4 text-gray-500" /> {t("contact.form.labels.budget")}
                   </label>
@@ -197,8 +197,8 @@ const ContactPage: React.FC = () => {
                     <option>{t("contact.form.selects.budget.b3")}</option>
                     <option>{t("contact.form.selects.budget.b4")}</option>
                   </select>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <label className="text-sm text-gray-600 flex items-center gap-2">
                     <Calendar className="w-4 h-4 text-gray-500" /> {t("contact.form.labels.timeline")}
                   </label>
@@ -213,7 +213,7 @@ const ContactPage: React.FC = () => {
                     <option>{t("contact.form.selects.timeline.t2")}</option>
                     <option>{t("contact.form.selects.timeline.flex")}</option>
                   </select>
-                </div>
+                </div> */}
                 <div className="md:col-span-2">
                   <label className="text-sm text-gray-600">{t("contact.form.labels.message")} *</label>
                   <textarea

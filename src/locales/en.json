@@ -5,6 +5,7 @@
     "projects": "Projects",
     "skills": "Skills",
     "contact": "Contact",
+    "nameSite": "Viviendas Bariloche Tuc.",
     "portfolio": "Portfolio",
     "backToTop": "Back to top",
     "year": "Year"
@@ -158,11 +159,6 @@
         "title": "Real-Time Tracked",
         "shortDescription": "Following in real-time the routes and deliveries of a logistics company",
         "details": "Spearheaded the development a logistics monitoring solution powered by the Google Maps API. The system enabled real-time tracking of delivery fleets, providing live updates on vehicle location, route progress, and delivery status. This end-to-end visibility facilitated dynamic route optimization, reduced travel times, and offered customers precise tracking, leading to a substantial improvement in shipment timeliness and overall operational efficiency."
-      },      
-      "qr": {
-        "title": "QR Tracked",
-        "shortDescription": "QR code-based package tracking and management system",
-        "details": "Designed and implemented the 'ScanFlow' system, a comprehensive package management platform utilizing QR code technology. The solution featured the generation of unique QR code labels for each shipment and their scanning at every checkpoints (receiving, in-transit, delivery). This end-to-end automation of the package lifecycle completely eliminated manual data entry errors and slashed management and tracking query times by 70%, revolutionizing the logistics operation."
       }
     }
   },

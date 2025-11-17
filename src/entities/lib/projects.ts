@@ -73,18 +73,18 @@ export const DATA: PortfolioItem[] = [
     company: "FLASH Servicios Postales",
     technologies: ["JavaScript", "HTML", "CSS", "PHP",  "Google Maps API", "SQL Server"]
   },
-    {
-    id: "qr",
-    year: "",
-    category: "",
-    captures: ["/images/projects/project_07_1.png", "/images/projects/project_07_2.png", "/images/projects/project_07_3.png"],
-    titleKey: "projects.items.qr.title",
-    detailsKey: "projects.items.qr.details",
-    shortDescription: "projects.items.qr.shortDescription",
-    note: true,
-    company: "FLASH Servicios Postales",
-    technologies: ["JavaScript", "HTML", "CSS", "PHP",  "Microsoft Excel", "SQL Server"]
-  },
+  //   {
+  //   id: "qr",
+  //   year: "",
+  //   category: "",
+  //   captures: ["/images/projects/project_07_1.png", "/images/projects/project_07_2.png", "/images/projects/project_07_3.png"],
+  //   titleKey: "projects.items.qr.title",
+  //   detailsKey: "projects.items.qr.details",
+  //   shortDescription: "projects.items.qr.shortDescription",
+  //   note: true,
+  //   company: "FLASH Servicios Postales",
+  //   technologies: ["JavaScript", "HTML", "CSS", "PHP",  "Microsoft Excel", "SQL Server"]
+  // },
   // {
   //   id: "",
   //   year: "",

@@ -4,6 +4,7 @@ import Presentation from '../sections/Presentation';
 import PortfolioGrid from '../sections/Projects';
 import { DATA } from '../entities/lib/projects';
 import HeroSlider from '../components/HeroSlider';
+import ProcessSlider from "../components/ProcessSlider";
 
 const HomePage: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ const HomePage: React.FC = () => {
         </section>
 
         <section id="skills" className="w-full">
-          <SkillsSection />
+<ProcessSlider />
         </section>
 
         <section id="projects" className="scroll-mt-24 md:scroll-mt-28 w-full">

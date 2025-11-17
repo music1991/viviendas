@@ -122,12 +122,12 @@ export default function SimpleCarousel({ items, autoPlayMs = 3000 }: Props) {
         <div className="absolute left-3 bottom-3 md:left-1/4 md:bottom-10 md:-translate-x-1/2 z-30 text-center px-3 md:px-4">
           <div className="bg-black/40 backdrop-blur-xl md:backdrop-blur-3xl
                   px-3 py-2 md:px-8 md:py-6 rounded-2xl border border-white/10 shadow-md md:shadow-2xl">
-            <h3 className="text-white text-sm sm:text-base md:text-2xl font-semibold mb-1 md:mb-3 tracking-wide">
+            {title(current) && <h3 className="text-white text-sm sm:text-base md:text-2xl font-semibold mb-1 md:mb-3 tracking-wide">
               {title(current)}
-            </h3>
-            <p className="hidden md:block text-white/95 text-base md:text-lg leading-relaxed max-w-md mx-auto font-normal">
+            </h3>}
+            {details(current) && <p className="hidden md:block text-white/95 text-base md:text-lg leading-relaxed max-w-md mx-auto font-normal">
               {details(current)}
-            </p>
+            </p>}
           </div>
         </div>
 

@@ -56,147 +56,88 @@ const AboutPage: React.FC = () => {
 
   return (
     <main className="min-h-screen bg-gray-50 text-gray-800 font-sans">
-      <header className="text-center py-10 bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-md">
+      {/* <header className="text-center py-10 bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-md">
         <p className="text-lg opacity-90 mt-20">{t("profile.header.subtitle")}</p>
-      </header>
+      </header> */}
 
-      <div className="max-w-5xl mx-auto px-6 md:px-10 py-20 space-y-24">
-        <section id="about" className="scroll-mt-20">
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-10">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-              {t("profile.about.heading")}
-            </h2>
-            <div className="prose prose-gray max-w-none leading-relaxed">
-              <TypewriterLines
-                lines={aboutLines}
-                typingSpeed={10}
-                lineDelay={200}
-              />
-            </div>
-          </div>
-        </section>
+      <div className="max-w-5xl mx-auto px-6 md:px-10 py-20">
 
-        <section id="experience" className="scroll-mt-20">
-          <div className="flex items-center gap-3 mb-6">
-            <Briefcase className="w-7 h-7 text-purple-600" />
-            <h2 className="text-2xl font-semibold text-gray-900">
-              {t("profile.experience.title")}
-            </h2>
-          </div>
-          <div className="space-y-8 border-l-2 border-purple-100 pl-6">
-            {jobs.map((job) => (
-              <div key={`${job.company}-${job.role}`}>
-                <h3 className="text-lg font-bold text-gray-900">{job.role}</h3>
-                <p className="text-gray-600">{job.company}</p>
-                <p className="text-sm text-gray-500 mt-1">{job.period}</p>
-                <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1">
-                  {job.details.map((d, i) => <li key={i}>{d}</li>)}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </section>
+        <div className="max-w-4xl mx-auto mt-16 mb-24 bg-white rounded-3xl shadow-xl border border-gray-200 p-10">
 
-        <section id="education" className="scroll-mt-20">
-          <div className="flex items-center gap-3 mb-6">
-            <GraduationCap className="w-7 h-7 text-blue-600" />
-            <h2 className="text-2xl font-semibold text-gray-900">
-              {t("profile.education.title")}
-            </h2>
+          {/* título principal */}
+          <h2 className="text-3xl font-bold text-blue-700 mb-8">
+            Sobre Nosotros
+          </h2>
+
+          {/* descripción general */}
+          <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+            <span className="font-semibold text-blue-700">Viviendas Bariloche Tuc.</span> es una empresa familiar dedicada al diseño y
+            construcción de viviendas prefabricadas que combinan calidad, calidez y eficiencia. Nacimos con un propósito claro:
+            ofrecer soluciones habitacionales accesibles, modernas y pensadas para mejorar la vida de las familias que eligen
+            crecer en la Patagonia.
+          </p>
+
+          {/* VISIÓN */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
+              <span className="text-blue-600 text-3xl">•</span> Nuestra Visión
+            </h3>
+            <p className="text-gray-700 leading-relaxed text-lg pl-5">
+              Ser la empresa líder en viviendas prefabricadas del norte argentino, reconocida por la calidad,
+              la transparencia y la confianza que brindamos en cada construcción. Cada hogar entregado es un
+              lugar donde las personas proyectan sueños, futuro y bienestar.
+            </p>
           </div>
-          <ul className="space-y-6 border-l-2 border-blue-100 pl-6">
-            {tObj<EduItem[]>("profile.education.items")?.map((edu) => (
-              <li key={`${edu.degree}-${edu.institution}`}>
-                <h3 className="text-lg font-bold text-gray-900">{edu.degree}</h3>
-                <p className="text-gray-600">{edu.institution}</p>
-                <p className="text-sm text-gray-500">{edu.year}</p>
+
+          {/* MISIÓN */}
+          <div className="mb-10">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
+              <span className="text-blue-600 text-3xl">•</span> Nuestra Misión
+            </h3>
+            <p className="text-gray-700 leading-relaxed text-lg pl-5">
+              Diseñar y construir viviendas eficientes, cómodas y accesibles, cuidando cada detalle desde el
+              primer contacto hasta la entrega final. Apostamos por procesos claros, tiempos reales y un
+              acompañamiento continuo para que cada familia disfrute de su hogar sin estrés ni sorpresas.
+            </p>
+          </div>
+
+          {/* VALORES */}
+          <div>
+            <h3 className="text-2xl font-semibold text-gray-900 mb-5 flex items-center gap-2">
+              <span className="text-blue-600 text-3xl">•</span> Nuestros Valores
+            </h3>
+
+            <ul className="space-y-4 text-gray-700 text-lg pl-5">
+              <li>
+                <span className="font-semibold text-blue-700">Compromiso:</span>
+                &nbsp;Cumplimos cada plazo, acuerdo y palabra. La confianza es la base del proyecto.
               </li>
-            ))}
-          </ul>
-        </section>
 
-        <section id="languages" className="scroll-mt-20">
-          <div className="flex items-center gap-3 mb-6">
-            <Languages className="w-7 h-7 text-emerald-600" />
-            <h2 className="text-2xl font-semibold text-gray-900">
-              {t("profile.languages.title")}
-            </h2>
-          </div>
-          <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {langs.map((lang) => (
-              <li key={lang.name} className="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
-                <h3 className="text-lg font-semibold text-gray-900 mb-1">{lang.name}</h3>
-                <p className="text-gray-600 text-sm">{lang.level}</p>
+              <li>
+                <span className="font-semibold text-blue-700">Transparencia:</span>
+                &nbsp;Comunicación clara en cada etapa de la obra, sin sorpresas.
               </li>
-            ))}
-          </ul>
-        </section>
 
-        <section id="motivations" className="scroll-mt-20">
-          <div className="flex items-center gap-3 mb-6">
-            <Heart className="w-7 h-7 text-rose-600" />
-            <h2 className="text-2xl font-semibold text-gray-900">
-              {t?.("profile.motivations.title") ?? ""}
-            </h2>
+              <li>
+                <span className="font-semibold text-blue-700">Calidad:</span>
+                &nbsp;Materiales seleccionados, técnicas modernas y mano de obra especializada.
+              </li>
+
+              <li>
+                <span className="font-semibold text-blue-700">Cercanía:</span>
+                &nbsp;Acompañamos a cada familia como si el proyecto fuera propio.
+              </li>
+
+              <li>
+                <span className="font-semibold text-blue-700">Evolución:</span>
+                &nbsp;Mejora continua, innovación y búsqueda constante de soluciones más eficientes.
+              </li>
+            </ul>
           </div>
 
-          <div className="grid sm:grid-cols-2 gap-6">
-            <div className="p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all sm:col-span-2">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                {t?.("profile.motivations.volunteer.title") ?? ""}
-              </h3>
-              <PolaroidRow images={volunteerPics} />
-              <p className="list-disc list-inside text-gray-700 mt-10 mb-5 space-y-1 whitespace-pre-line">
-                {t?.("profile.motivations.volunteer.desc") ?? ""}
-              </p>
-            </div>
+        </div>
 
-            <div className="p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all sm:col-span-2">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                {t?.("profile.motivations.theater.title") ?? ""}
-              </h3>
-              <PolaroidRow images={theaterPics} />
-              <p className="list-disc list-inside text-gray-700 mt-10 mb-5 space-y-1">
-                {t?.("profile.motivations.theater.desc") ?? ""}
-              </p>
-          {/* <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                  {t?.("profile.motivations.theater.creativity") ?? ""}
-                </span>
-                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                  {t?.("profile.motivations.theater") ?? ""}
-                </span>
-                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                  {t?.("profile.motivations.theater") ?? ""}
-                </span>
-              </div> */}
-            </div>
 
-            <div className="p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all sm:col-span-2">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                {t?.("profile.motivations.exercise.title") ?? ""}
-              </h3>
-              <PolaroidRow images={exercisePics} />
-              <p className="list-disc list-inside text-gray-700 mt-10 mb-5 space-y-1">
-                {t?.("profile.motivations.exercise.desc") ?? ""}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                  {t?.("profile.motivations.exercise.bike") ?? ""}
-                </span>
-                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                  {t?.("profile.motivations.exercise.run") ?? ""}
-                </span>
-                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                  {t?.("profile.motivations.exercise.gym") ?? ""}
-                </span>
-                <span className="px-3 py-1.5 text-sm rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">
-                  {t?.("profile.motivations.exercise.other")}
-                </span>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     </main>
   );
